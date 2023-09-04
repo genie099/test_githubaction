@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: manaul testing
 run-name: Hello
 on: 
   workflow_dispatch:
