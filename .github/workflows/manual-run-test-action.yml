@@ -1,6 +1,11 @@
 name: learn-github-actions
 run-name: Hello
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Who to greet"
+        default: "World"
 jobs:
   check-bats-version1:
     runs-on: ubuntu-latest
